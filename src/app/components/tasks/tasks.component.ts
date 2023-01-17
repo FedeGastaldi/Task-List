@@ -20,6 +20,12 @@ export class TasksComponent {
     this.taskService.getTasks().subscribe((tasks)=>(
       this.tasks = tasks
     ));
+
+  
+  }
+
+  deleteTask(task: Task){
+    
   }
   
   
